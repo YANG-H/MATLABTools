@@ -1,5 +1,4 @@
-function [ vp, f, lineclasses ] = panoramix_wrapper_vpdetection( lines, projcenter )
-%PANORAMIX_WRAPPER_VPDETECTION
+function [ vp, f, lineclasses ] = detectVPs( lines, projcenter )
 
 % input: lines [n x 4] lines data
 
